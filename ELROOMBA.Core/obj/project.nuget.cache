@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2yjrKr9ERA4Fd6LC8MaEPVpLH9y9TANC61BBwCmsvwaMDM94NouCeNZaLKLN4mRHmSDILkmL3YaoJqH/TyEBSQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Core\\ELROOMBA.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

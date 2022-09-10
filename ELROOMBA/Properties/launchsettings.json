@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "ELROOMBA (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "ELROOMBA (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}

@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\ELROOMBA\ELROOMBA.Core\bin\x86\Debug\net6.0\ELROOMBA.Core.deps.json
+C:\Users\Administrator\Desktop\ELROOMBA\ELROOMBA.Core\bin\x86\Debug\net6.0\ELROOMBA.Core.dll
+C:\Users\Administrator\Desktop\ELROOMBA\ELROOMBA.Core\bin\x86\Debug\net6.0\ELROOMBA.Core.pdb
+C:\Users\Administrator\Desktop\ELROOMBA\ELROOMBA.Core\obj\x86\Debug\net6.0\ELROOMBA.Core.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\ELROOMBA\ELROOMBA.Core\obj\x86\Debug\net6.0\ELROOMBA.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\ELROOMBA\ELROOMBA.Core\obj\x86\Debug\net6.0\ELROOMBA.Core.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\ELROOMBA\ELROOMBA.Core\obj\x86\Debug\net6.0\ELROOMBA.Core.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\ELROOMBA\ELROOMBA.Core\obj\x86\Debug\net6.0\ELROOMBA.Core.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\ELROOMBA\ELROOMBA.Core\obj\x86\Debug\net6.0\ELROOMBA.Core.dll
+C:\Users\Administrator\Desktop\ELROOMBA\ELROOMBA.Core\obj\x86\Debug\net6.0\refint\ELROOMBA.Core.dll
+C:\Users\Administrator\Desktop\ELROOMBA\ELROOMBA.Core\obj\x86\Debug\net6.0\ELROOMBA.Core.pdb
+C:\Users\Administrator\Desktop\ELROOMBA\ELROOMBA.Core\obj\x86\Debug\net6.0\ref\ELROOMBA.Core.dll

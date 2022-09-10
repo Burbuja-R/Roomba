@@ -1,0 +1,11 @@
+App.xbf
+MainWindow.xbf
+Styles\Colors.xbf
+Styles\FontSizes.xbf
+Styles\TextBlock.xbf
+Styles\Thickness.xbf
+Templates\ItemTemplates.xbf
+Views\ExclusivoPage.xbf
+Views\HomePage.xbf
+Views\SettingsPage.xbf
+Views\ShellPage.xbf
