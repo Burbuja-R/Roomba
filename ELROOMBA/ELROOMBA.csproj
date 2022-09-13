@@ -15,10 +15,24 @@
 		<EnableMsixTooling>true</EnableMsixTooling>
 		<WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
 	</PropertyGroup>
+
+	<!--Preload Assets -->
 	<ItemGroup>
-	  <None Remove="Templates\ItemTemplates.xaml" />
-	</ItemGroup>
-	<ItemGroup>
+		<Content Include="Assets\Error.png" />
+		<Content Include="Assets\Exclamation.png" />
+		<Content Include="Assets\Driver.png" />
+		<Content Include="Assets\Energia.png" />
+		<Content Include="Assets\FSO.png" />
+		<Content Include="Assets\MCSS.png" />
+		<Content Include="Assets\Monitor.png" />
+		<Content Include="Assets\Mouse.png" />
+		<Content Include="Assets\PowerThrottling.png" />
+		<Content Include="Assets\Servicio.png" />
+		<Content Include="Assets\Spectre.png" />
+		<Content Include="Assets\System.png" />
+		<Content Include="Assets\Updates.png" />
+		<Content Include="Assets\Windows.png" />
+		<Content Include="Assets\Windows95.png" />
 		<Content Include="Assets\Ajustes.png" />
 		<Content Include="Assets\Alerta.png" />
 		<Content Include="Assets\Exclamacion.png" />
@@ -35,6 +49,7 @@
 		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
 		<PackageReference Include="Microsoft.WindowsAppSDK" Version="1.1.3" />
 		<PackageReference Include="Microsoft.Xaml.Behaviors.WinUI.Managed" Version="2.0.8" />
+		<PackageReference Include="System.Management" Version="6.0.0" />
 		<PackageReference Include="WinUIEx" Version="1.8.0" />
 	</ItemGroup>
 

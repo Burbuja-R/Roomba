@@ -632,6 +632,22 @@
           }
         }
       },
+      "System.CodeDom/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -672,6 +688,31 @@
             "rid": "win"
           },
           "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Management/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1388,6 +1429,22 @@
           }
         }
       },
+      "System.CodeDom/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -1417,6 +1474,25 @@
         "runtime": {
           "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {},
           "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Management/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -2129,6 +2205,22 @@
           }
         }
       },
+      "System.CodeDom/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -2158,6 +2250,25 @@
         "runtime": {
           "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {},
           "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Management/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -2870,6 +2981,22 @@
           }
         }
       },
+      "System.CodeDom/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -2899,6 +3026,25 @@
         "runtime": {
           "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll": {},
           "runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Management/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
             "related": ".xml"
           }
         },
@@ -4424,6 +4570,29 @@
         "packageIcon.png"
       ]
     },
+    "System.CodeDom/6.0.0": {
+      "sha512": "CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
+      "type": "package",
+      "path": "system.codedom/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.CodeDom.dll",
+        "lib/net461/System.CodeDom.xml",
+        "lib/net6.0/System.CodeDom.dll",
+        "lib/net6.0/System.CodeDom.xml",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.6.0.0.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/6.0.0": {
       "sha512": "frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
       "type": "package",
@@ -4477,6 +4646,34 @@
         "runtimes/win/lib/netcoreapp3.1/System.Diagnostics.EventLog.xml",
         "system.diagnostics.eventlog.6.0.0.nupkg.sha512",
         "system.diagnostics.eventlog.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Management/6.0.0": {
+      "sha512": "sHsESYMmPDhQuOC66h6AEOs/XowzKsbT9srMbX71TCXP58hkpn1BqBjdmKj1+DCA/WlBETX1K5WjQHwmV0Txrg==",
+      "type": "package",
+      "path": "system.management/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Management.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/_._",
+        "lib/net6.0/System.Management.dll",
+        "lib/net6.0/System.Management.xml",
+        "lib/netcoreapp3.1/System.Management.dll",
+        "lib/netcoreapp3.1/System.Management.xml",
+        "lib/netstandard2.0/System.Management.dll",
+        "lib/netstandard2.0/System.Management.xml",
+        "runtimes/win/lib/net6.0/System.Management.dll",
+        "runtimes/win/lib/net6.0/System.Management.xml",
+        "runtimes/win/lib/netcoreapp3.1/System.Management.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Management.xml",
+        "system.management.6.0.0.nupkg.sha512",
+        "system.management.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -4617,6 +4814,7 @@
       "Microsoft.Extensions.Hosting >= 6.0.1",
       "Microsoft.WindowsAppSDK >= 1.1.3",
       "Microsoft.Xaml.Behaviors.WinUI.Managed >= 2.0.8",
+      "System.Management >= 6.0.0",
       "WinUIEx >= 1.8.0"
     ]
   },
@@ -4627,11 +4825,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA\\ELROOMBA.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA\\ELROOMBA.csproj",
       "projectName": "ELROOMBA",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA\\ELROOMBA.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA\\ELROOMBA.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4652,8 +4850,8 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Core\\ELROOMBA.Core.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Core\\ELROOMBA.Core.csproj"
+            "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Core\\ELROOMBA.Core.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Core\\ELROOMBA.Core.csproj"
             }
           }
         }
@@ -4683,6 +4881,10 @@
           "Microsoft.Xaml.Behaviors.WinUI.Managed": {
             "target": "Package",
             "version": "[2.0.8, )"
+          },
+          "System.Management": {
+            "target": "Package",
+            "version": "[6.0.0, )"
           },
           "WinUIEx": {
             "target": "Package",

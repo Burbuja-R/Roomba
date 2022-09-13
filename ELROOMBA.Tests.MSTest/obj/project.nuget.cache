@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F8/AP+cJOYAhTmmI36J3jZIuMJPXcfciPnuQEiiPZoRrokZOSKr/iDC62fY7M01QN+by2BXGut+oSKF4zWsFHQ==",
+  "dgSpecHash": "inTE/cR9Nntget7A0F3pgEblIZHpgXF6NrHBUMrnJEUQGhF7Xmi5etQdRC9SVdnidscS1/pX9KjUIXP8To0X9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.mvvm\\7.1.2\\communitytoolkit.mvvm.7.1.2.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
@@ -67,6 +67,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.win.system.diagnostics.debug\\4.3.0\\runtime.win.system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.win.system.runtime.extensions\\4.3.0\\runtime.win.system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\runtime.win7.system.private.uri\\4.3.0\\runtime.win7.system.private.uri.4.3.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
@@ -75,6 +76,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.tracesource\\4.3.0\\system.diagnostics.tracesource.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.globalization\\4.3.0\\system.globalization.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.private.uri\\4.3.0\\system.private.uri.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",

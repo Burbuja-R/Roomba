@@ -28,7 +28,9 @@ public sealed partial class ShellPage : Page
         App.MainWindow.Activated += MainWindow_Activated;
         AppTitleBarText.Text = "AppDisplayName".GetLocalized();
 
-        ViewModel.SetData();
+
+        ViewModel.RestorePoint();
+        ViewModel.SetDataAsync();
 
     }
 

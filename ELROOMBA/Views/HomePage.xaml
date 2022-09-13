@@ -6,7 +6,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{StaticResource PageBackground}"
-    BorderThickness="0">
+    BorderThickness="0"
+    NavigationCacheMode="Required">
 
     <Grid x:Name="ContentArea" RowDefinitions="auto, *" BorderThickness="0" >
 

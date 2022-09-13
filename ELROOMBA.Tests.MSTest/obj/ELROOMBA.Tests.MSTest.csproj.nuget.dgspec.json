@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj": {}
+    "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Core\\ELROOMBA.Core.csproj": {
+    "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Core\\ELROOMBA.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Core\\ELROOMBA.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Core\\ELROOMBA.Core.csproj",
         "projectName": "ELROOMBA.Core",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Core\\ELROOMBA.Core.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Core\\ELROOMBA.Core.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Core\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj": {
+    "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj",
         "projectName": "ELROOMBA.Tests.MSTest",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Tests.MSTest\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Tests.MSTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net6.0-windows10.0.19041": {
             "targetAlias": "net6.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA\\ELROOMBA.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA\\ELROOMBA.csproj"
+              "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA\\ELROOMBA.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA\\ELROOMBA.csproj"
               }
             }
           }
@@ -226,14 +226,14 @@
         }
       }
     },
-    "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA\\ELROOMBA.csproj": {
+    "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA\\ELROOMBA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA\\ELROOMBA.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA\\ELROOMBA.csproj",
         "projectName": "ELROOMBA",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA\\ELROOMBA.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA\\ELROOMBA.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -254,8 +254,8 @@
           "net6.0-windows10.0.19041": {
             "targetAlias": "net6.0-windows10.0.19041.0",
             "projectReferences": {
-              "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Core\\ELROOMBA.Core.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Core\\ELROOMBA.Core.csproj"
+              "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Core\\ELROOMBA.Core.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Core\\ELROOMBA.Core.csproj"
               }
             }
           }
@@ -285,6 +285,10 @@
             "Microsoft.Xaml.Behaviors.WinUI.Managed": {
               "target": "Package",
               "version": "[2.0.8, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "WinUIEx": {
               "target": "Package",

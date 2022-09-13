@@ -7,7 +7,8 @@
     xmlns:helpers="using:ELROOMBA.Helpers"
     xmlns:behaviors="using:ELROOMBA.Behaviors"
     xmlns:i="using:Microsoft.Xaml.Interactivity"
-    Loaded="OnLoaded" Background="{StaticResource ShellMenuBackground}">
+    Loaded="OnLoaded"
+    Background="{StaticResource ShellMenuBackground}">
     <Grid>
         <Grid x:Name="AppTitleBar"
               Height="30"
@@ -35,7 +36,8 @@
             IsSettingsVisible="False"
             ExpandedModeThresholdWidth="1280"
             DisplayModeChanged="NavigationViewControl_DisplayModeChanged"
-            PaneDisplayMode="LeftCompact">
+            PaneDisplayMode="LeftCompact"
+            Background="{StaticResource ShellMenuBackground}">
             <NavigationView.MenuItems>
                 <NavigationViewItem x:Uid="Shell_Home" helpers:NavigationHelper.NavigateTo="ELROOMBA.ViewModels.HomeViewModel">
                     <NavigationViewItem.Icon>
@@ -81,8 +83,8 @@
 
                             <StackPanel Orientation="Horizontal">
                                 <Image Source="ms-appx:///Assets/Exclamacion.png" 
-                                       Width="15"
-                                       Height="15"
+                                       Width="20"
+                                       Height="20"
                                        HorizontalAlignment="Left"
                                        VerticalAlignment="Center"
                                        Margin="10 0 0 0" />
@@ -107,12 +109,66 @@
                                 <StackPanel Orientation="Horizontal" Height="auto">
 
                                     <Image Source="ms-appx:///Assets/Alerta.png"
-                                           Height="20"
+                                           Height="10"
                                            HorizontalAlignment="Left"
                                            VerticalAlignment="Center"
                                            Margin="10 0 0 0" />
 
                                     <TextBlock Text="{x:Bind ViewModel.Statecode, Mode=OneWay}"
+                                               VerticalAlignment="Center"
+                                               HorizontalAlignment="Left" 
+                                               FontSize="10"
+                                               FontWeight="SemiBold"
+                                               Margin="10 0 0 0"/>
+
+                                </StackPanel>
+
+                            </Button>
+
+                            <Button Background="{StaticResource ColorVerde}" Margin="5 0 0 0">
+
+                                <Button.Style>
+                                    <Style  TargetType="Button">
+                                        <Setter  Property="BorderThickness"  Value="0"/>
+                                    </Style>
+                                </Button.Style>
+
+                                <StackPanel Orientation="Horizontal" Height="auto">
+
+                                    <Image Source="ms-appx:///Assets/Error.png"
+                                           Height="10"
+                                           HorizontalAlignment="Left"
+                                           VerticalAlignment="Center"
+                                           Margin="10 0 0 0" />
+
+                                    <TextBlock Text="{x:Bind ViewModel.StateErrorCode, Mode=OneWay}"
+                                               VerticalAlignment="Center"
+                                               HorizontalAlignment="Left" 
+                                               FontSize="10"
+                                               FontWeight="SemiBold"
+                                               Margin="10 0 0 0"/>
+
+                                </StackPanel>
+
+                            </Button>
+
+                            <Button Background="{StaticResource ColorVerde}" Margin="5 0 0 0">
+
+                                <Button.Style>
+                                    <Style  TargetType="Button">
+                                        <Setter  Property="BorderThickness"  Value="0"/>
+                                    </Style>
+                                </Button.Style>
+
+                                <StackPanel Orientation="Horizontal" Height="auto">
+
+                                    <Image Source="ms-appx:///Assets/Exclamation.png"
+                                           Height="10"
+                                           HorizontalAlignment="Left"
+                                           VerticalAlignment="Center"
+                                           Margin="10 0 0 0" />
+
+                                    <TextBlock Text="{x:Bind ViewModel.StateErrorCode, Mode=OneWay}"
                                                VerticalAlignment="Center"
                                                HorizontalAlignment="Left" 
                                                FontSize="10"

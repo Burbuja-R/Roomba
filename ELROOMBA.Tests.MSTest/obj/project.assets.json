@@ -991,6 +991,22 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "System.CodeDom/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1135,6 +1151,31 @@
         "compile": {
           "ref/netstandard1.5/System.IO.dll": {
             "related": ".xml"
+          }
+        }
+      },
+      "System.Management/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "assetType": "runtime",
+            "rid": "win"
           }
         }
       },
@@ -1346,6 +1387,7 @@
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Microsoft.WindowsAppSDK": "1.1.3",
           "Microsoft.Xaml.Behaviors.WinUI.Managed": "2.0.8",
+          "System.Management": "6.0.0",
           "WinUIEx": "1.8.0"
         },
         "compile": {
@@ -2462,6 +2504,22 @@
           "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
+      "System.CodeDom/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2595,6 +2653,25 @@
           "ref/netstandard1.5/System.IO.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.Management/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Private.Uri/4.3.0": {
@@ -2817,6 +2894,7 @@
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Microsoft.WindowsAppSDK": "1.1.3",
           "Microsoft.Xaml.Behaviors.WinUI.Managed": "2.0.8",
+          "System.Management": "6.0.0",
           "WinUIEx": "1.8.0"
         },
         "compile": {
@@ -3919,6 +3997,22 @@
           "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
+      "System.CodeDom/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -4052,6 +4146,25 @@
           "ref/netstandard1.5/System.IO.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.Management/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Private.Uri/4.3.0": {
@@ -4289,6 +4402,7 @@
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Microsoft.WindowsAppSDK": "1.1.3",
           "Microsoft.Xaml.Behaviors.WinUI.Managed": "2.0.8",
+          "System.Management": "6.0.0",
           "WinUIEx": "1.8.0"
         },
         "compile": {
@@ -5394,6 +5508,22 @@
           "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
+      "System.CodeDom/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -5527,6 +5657,25 @@
           "ref/netstandard1.5/System.IO.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.Management/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Private.Uri/4.3.0": {
@@ -5764,6 +5913,7 @@
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Microsoft.WindowsAppSDK": "1.1.3",
           "Microsoft.Xaml.Behaviors.WinUI.Managed": "2.0.8",
+          "System.Management": "6.0.0",
           "WinUIEx": "1.8.0"
         },
         "compile": {
@@ -6883,6 +7033,22 @@
           "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
+      "System.CodeDom/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -7016,6 +7182,25 @@
           "ref/netstandard1.5/System.IO.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.Management/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Private.Uri/4.3.0": {
@@ -7238,6 +7423,7 @@
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Microsoft.WindowsAppSDK": "1.1.3",
           "Microsoft.Xaml.Behaviors.WinUI.Managed": "2.0.8",
+          "System.Management": "6.0.0",
           "WinUIEx": "1.8.0"
         },
         "compile": {
@@ -8343,6 +8529,22 @@
           "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
+      "System.CodeDom/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -8476,6 +8678,25 @@
           "ref/netstandard1.5/System.IO.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.Management/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Private.Uri/4.3.0": {
@@ -8713,6 +8934,7 @@
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Microsoft.WindowsAppSDK": "1.1.3",
           "Microsoft.Xaml.Behaviors.WinUI.Managed": "2.0.8",
+          "System.Management": "6.0.0",
           "WinUIEx": "1.8.0"
         },
         "compile": {
@@ -9832,6 +10054,22 @@
           "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
+      "System.CodeDom/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -9965,6 +10203,25 @@
           "ref/netstandard1.5/System.IO.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.Management/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Private.Uri/4.3.0": {
@@ -10187,6 +10444,7 @@
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Microsoft.WindowsAppSDK": "1.1.3",
           "Microsoft.Xaml.Behaviors.WinUI.Managed": "2.0.8",
+          "System.Management": "6.0.0",
           "WinUIEx": "1.8.0"
         },
         "compile": {
@@ -11292,6 +11550,22 @@
           "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll": {}
         }
       },
+      "System.CodeDom/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -11425,6 +11699,25 @@
           "ref/netstandard1.5/System.IO.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "System.Management/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.CodeDom": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net6.0/System.Management.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Private.Uri/4.3.0": {
@@ -11662,6 +11955,7 @@
           "Microsoft.Extensions.Hosting": "6.0.1",
           "Microsoft.WindowsAppSDK": "1.1.3",
           "Microsoft.Xaml.Behaviors.WinUI.Managed": "2.0.8",
+          "System.Management": "6.0.0",
           "WinUIEx": "1.8.0"
         },
         "compile": {
@@ -14580,6 +14874,29 @@
         "runtimes/win/lib/netstandard1.0/System.Private.Uri.dll"
       ]
     },
+    "System.CodeDom/6.0.0": {
+      "sha512": "CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
+      "type": "package",
+      "path": "system.codedom/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.CodeDom.dll",
+        "lib/net461/System.CodeDom.xml",
+        "lib/net6.0/System.CodeDom.dll",
+        "lib/net6.0/System.CodeDom.xml",
+        "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.6.0.0.nupkg.sha512",
+        "system.codedom.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "System.Collections/4.3.0": {
       "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "type": "package",
@@ -14999,6 +15316,34 @@
         "ref/xamarinwatchos10/_._",
         "system.io.4.3.0.nupkg.sha512",
         "system.io.nuspec"
+      ]
+    },
+    "System.Management/6.0.0": {
+      "sha512": "sHsESYMmPDhQuOC66h6AEOs/XowzKsbT9srMbX71TCXP58hkpn1BqBjdmKj1+DCA/WlBETX1K5WjQHwmV0Txrg==",
+      "type": "package",
+      "path": "system.management/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Management.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/_._",
+        "lib/net6.0/System.Management.dll",
+        "lib/net6.0/System.Management.xml",
+        "lib/netcoreapp3.1/System.Management.dll",
+        "lib/netcoreapp3.1/System.Management.xml",
+        "lib/netstandard2.0/System.Management.dll",
+        "lib/netstandard2.0/System.Management.xml",
+        "runtimes/win/lib/net6.0/System.Management.dll",
+        "runtimes/win/lib/net6.0/System.Management.xml",
+        "runtimes/win/lib/netcoreapp3.1/System.Management.dll",
+        "runtimes/win/lib/netcoreapp3.1/System.Management.xml",
+        "system.management.6.0.0.nupkg.sha512",
+        "system.management.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Private.Uri/4.3.0": {
@@ -15830,11 +16175,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj",
       "projectName": "ELROOMBA.Tests.MSTest",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Tests.MSTest\\ELROOMBA.Tests.MSTest.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Tests.MSTest\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Tests.MSTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -15855,8 +16200,8 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA\\ELROOMBA.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA\\ELROOMBA.csproj"
+            "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA\\ELROOMBA.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA\\ELROOMBA.csproj"
             }
           }
         }

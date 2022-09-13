@@ -8,7 +8,8 @@
     xmlns:data="using:ELROOMBA.DataModel"
     mc:Ignorable="d">
 
-    <DataTemplate x:Key="ControlItemTemplate" x:DataType="data:ButtonInfo">
+    <DataTemplate x:Key="ControlItemTemplate"
+                  x:DataType="data:ButtonInfo">
         <UserControl>
             <Grid
                 x:Name="controlRoot"
@@ -56,7 +57,10 @@
                 </Grid>
 
 
-                <RelativePanel Grid.Column="1" Grid.ColumnSpan="2" Margin="16,6,0,0">
+                <RelativePanel Grid.Column="1" 
+                              Grid.ColumnSpan="2"
+                              Margin="16,6,0,0">
+                   
                     <TextBlock
                         x:Name="titleText"
                         Style="{StaticResource BodyStrongTextBlockStyle}"

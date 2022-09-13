@@ -58,11 +58,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Core\\ELROOMBA.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Core\\ELROOMBA.Core.csproj",
       "projectName": "ELROOMBA.Core",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Core\\ELROOMBA.Core.csproj",
+      "projectPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Core\\ELROOMBA.Core.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\ELROOMBA\\ELROOMBA.Core\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\Source\\Repos\\Burbuja-R\\Roomba\\ELROOMBA.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
