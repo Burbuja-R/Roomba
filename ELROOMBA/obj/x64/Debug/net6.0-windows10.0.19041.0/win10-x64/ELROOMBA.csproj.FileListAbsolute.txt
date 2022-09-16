@@ -149,7 +149,6 @@ C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Styles\FontSizes.xbf
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Styles\TextBlock.xbf
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Styles\Thickness.xbf
-C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Templates\ItemTemplates.xbf
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ExclusivoPage.xbf
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\HomePage.xbf
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\SettingsPage.xbf
@@ -420,7 +419,6 @@ C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.822.36306.dll
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -435,8 +433,6 @@ C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\App.g.cs
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\MainWindow.g.i.cs
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\MainWindow.g.cs
-C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Templates\ItemTemplates.g.i.cs
-C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Templates\ItemTemplates.g.cs
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ExclusivoPage.g.i.cs
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ExclusivoPage.g.cs
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\HomePage.g.i.cs
@@ -452,7 +448,6 @@ C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Styles\FontSizes.xaml
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Styles\TextBlock.xaml
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Styles\Thickness.xaml
-C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Templates\ItemTemplates.xaml
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ExclusivoPage.xaml
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\HomePage.xaml
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\SettingsPage.xaml
@@ -463,7 +458,6 @@ C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Styles\FontSizes.xbf
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Styles\TextBlock.xbf
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Styles\Thickness.xbf
-C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Templates\ItemTemplates.xbf
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\ExclusivoPage.xbf
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\HomePage.xbf
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Views\SettingsPage.xbf
@@ -497,3 +491,9 @@ C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\System.CodeDom.dll
 C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\System.Management.dll
+C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_6.0.922.41905.dll
+C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Templates\ButtonTemplates.xbf
+C:\Users\Administrator\source\repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Templates\ButtonTemplates.g.i.cs
+C:\Users\Administrator\source\repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Templates\ButtonTemplates.g.cs
+C:\Users\Administrator\source\repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Templates\ButtonTemplates.xaml
+C:\Users\Administrator\source\repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\Templates\ButtonTemplates.xbf

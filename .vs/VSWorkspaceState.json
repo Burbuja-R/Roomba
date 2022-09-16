@@ -3,8 +3,8 @@
     "",
     "\\ELROOMBA",
     "\\ELROOMBA\\DataModel",
+    "\\ELROOMBA\\ViewModels",
     "\\ELROOMBA\\Views"
   ],
-  "SelectedNode": "\\ELROOMBA\\Views\\HomePage.xaml",
   "PreviewInSolutionExplorer": false
 }

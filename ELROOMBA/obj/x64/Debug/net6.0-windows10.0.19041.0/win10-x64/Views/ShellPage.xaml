@@ -6,21 +6,23 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:helpers="using:ELROOMBA.Helpers"
     xmlns:behaviors="using:ELROOMBA.Behaviors"
-    xmlns:i="using:Microsoft.Xaml.Interactivity"
+    xmlns:i="using:Microsoft.Xaml.Interactivity" xmlns:templates="using:ELROOMBA.Templates"
                      
+    DataContext="ShellViewModel"
     Background="{StaticResource ShellMenuBackground}">
     <Grid>
         <Grid x:ConnectionId='2' x:Name="AppTitleBar"
               Height="30"
               Canvas.ZIndex="1"
               IsHitTestVisible="True"
-              VerticalAlignment="Top">
+              VerticalAlignment="Top"
+              Background="{StaticResource ShellMenuBackground}">
             
             <Image Source="/Assets/WindowIcon.ico"
                    HorizontalAlignment="Left"
                    Width="16"
                    Height="16" />
-            <TextBlock x:ConnectionId='10' x:Name="AppTitleBarText"
+            <TextBlock x:ConnectionId='7' x:Name="AppTitleBarText"
                        VerticalAlignment="Center"
                        TextWrapping="NoWrap"
                        Style="{StaticResource CaptionTextBlockStyle}"
@@ -29,12 +31,13 @@
         
         <NavigationView x:ConnectionId='3'
             x:Name="NavigationViewControl"
-            Canvas.ZIndex="0"
+            Canvas.ZIndex="22"
             IsBackButtonVisible="Visible"
                                                                          
                                                                    
             IsSettingsVisible="False"
-            ExpandedModeThresholdWidth="1280"
+            ExpandedModeThresholdWidth="1007"
+            CompactModeThresholdWidth="1007"
                                                                          
             PaneDisplayMode="LeftCompact"
             Background="{StaticResource ShellMenuBackground}">
@@ -67,9 +70,24 @@
                 </NavigationViewItem>
             </NavigationView.FooterMenuItems>
             <Grid Background="{StaticResource PageBackground}">
-                
-                <Frame x:ConnectionId='5' x:Name="NavigationFrame" Margin="0 30 0 0" />
-                
+
+                <Frame x:ConnectionId='5' x:Name="NavigationFrame" Margin="0 30 0 0"  />
+
+
+                <InfoBar x:ConnectionId='6'                                               
+                                                                             
+                                                                     
+                                                                         
+                                                                                    
+                         Background="{StaticResource VarianteOscuraNegra}"
+                         Grid.Row="2"
+                         IsTextScaleFactorEnabled="True"
+                         Grid.Column="3"
+                         Canvas.ZIndex="22"
+                         Margin="0 50 10 50"
+                         HorizontalAlignment="Right"
+                         VerticalAlignment="Bottom"/>
+
                 <Border Background="{StaticResource ColorVerde}"
                         Grid.Row="2"
                         Grid.Column="0"
@@ -89,7 +107,7 @@
                                        VerticalAlignment="Center"
                                        Margin="10 0 0 0" />
                                 
-                                <TextBlock x:ConnectionId='9'                                                  
+                                <TextBlock Text="{x:Null}" 
                                            VerticalAlignment="Center"
                                            HorizontalAlignment="Left"
                                            FontSize="9" 
@@ -98,87 +116,7 @@
 
                             </StackPanel>
 
-                            <Button Background="{StaticResource ColorVerde}" Margin="5 0 0 0">
-
-                                <Button.Style>
-                                    <Style  TargetType="Button">
-                                        <Setter  Property="BorderThickness"  Value="0"/>
-                                    </Style>
-                                </Button.Style>
-
-                                <StackPanel Orientation="Horizontal" Height="auto">
-
-                                    <Image Source="ms-appx:///Assets/Alerta.png"
-                                           Height="10"
-                                           HorizontalAlignment="Left"
-                                           VerticalAlignment="Center"
-                                           Margin="10 0 0 0" />
-
-                                    <TextBlock x:ConnectionId='8'                                                 
-                                               VerticalAlignment="Center"
-                                               HorizontalAlignment="Left" 
-                                               FontSize="10"
-                                               FontWeight="SemiBold"
-                                               Margin="10 0 0 0"/>
-
-                                </StackPanel>
-
-                            </Button>
-
-                            <Button Background="{StaticResource ColorVerde}" Margin="5 0 0 0">
-
-                                <Button.Style>
-                                    <Style  TargetType="Button">
-                                        <Setter  Property="BorderThickness"  Value="0"/>
-                                    </Style>
-                                </Button.Style>
-
-                                <StackPanel Orientation="Horizontal" Height="auto">
-
-                                    <Image Source="ms-appx:///Assets/Error.png"
-                                           Height="10"
-                                           HorizontalAlignment="Left"
-                                           VerticalAlignment="Center"
-                                           Margin="10 0 0 0" />
-
-                                    <TextBlock x:ConnectionId='7'                                                      
-                                               VerticalAlignment="Center"
-                                               HorizontalAlignment="Left" 
-                                               FontSize="10"
-                                               FontWeight="SemiBold"
-                                               Margin="10 0 0 0"/>
-
-                                </StackPanel>
-
-                            </Button>
-
-                            <Button Background="{StaticResource ColorVerde}" Margin="5 0 0 0">
-
-                                <Button.Style>
-                                    <Style  TargetType="Button">
-                                        <Setter  Property="BorderThickness"  Value="0"/>
-                                    </Style>
-                                </Button.Style>
-
-                                <StackPanel Orientation="Horizontal" Height="auto">
-
-                                    <Image Source="ms-appx:///Assets/Exclamation.png"
-                                           Height="10"
-                                           HorizontalAlignment="Left"
-                                           VerticalAlignment="Center"
-                                           Margin="10 0 0 0" />
-
-                                    <TextBlock x:ConnectionId='6'                                                      
-                                               VerticalAlignment="Center"
-                                               HorizontalAlignment="Left" 
-                                               FontSize="10"
-                                               FontWeight="SemiBold"
-                                               Margin="10 0 0 0"/>
-
-                                </StackPanel>
-
-                            </Button>
-
+                           
                         </StackPanel>
 
                         <Button Height="auto"

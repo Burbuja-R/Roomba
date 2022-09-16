@@ -147,45 +147,12 @@ public class ButtonManager
 
 public class ButtonInfo
 {
-    public string? UniqueID
-    {
-        get;
-        set;
-    }
-    public string? CommonID
-    {
-
-        get;
-        set;
-    }
-    public string? Title
-    {
-        get;
-        set;
-    }
-    public string? Description
-    {
-        get;
-        set;
-    }
-    public string? ImagePath
-    {
-        get;
-        set;
-    }
-    public bool IsNew
-    {
-        get;
-        set;
-    }
-    public bool IsUpdate
-    {
-        get;
-        set;
-    }
-    public bool IsExclusive
-    {
-        get;
-        set;
-    }
+    public string? UniqueID { get; set; }
+    public string? CommonID { get; set; }
+    public string? Title { get; set; }
+    public string? Description { get; set; }
+    public string? ImagePath { get; set; }
+    public bool IsNew { get; set; }
+    public bool IsUpdate { get; set; }
+    public bool IsExclusive { get; set; }
 }
