@@ -4,11 +4,11 @@ Assets\Driver.png
 Assets\Energia.png
 Assets\Error.png
 Assets\Exclamacion.png
-Assets\Exclamation.png
-Assets\Exclusivo.png
+Assets\Exclusive.png
 Assets\FSO.png
 Assets\Home.png
 Assets\LockScreenLogo.scale-200.png
+Assets\Logs.png
 Assets\MCSS.png
 Assets\Monitor.png
 Assets\Mouse.png
@@ -20,6 +20,7 @@ Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
+Assets\Success.png
 Assets\System.png
 Assets\Updates.png
 Assets\Wide310x150Logo.scale-200.png

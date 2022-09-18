@@ -1,4 +1,5 @@
-﻿using System.Xml;
+﻿using System.Collections.Generic;
+using System.Xml;
 
 namespace ELROOMBA.DataModel;
 
@@ -143,7 +144,10 @@ public class ButtonManager
 
         return Button;
     }
+
 }
+
+
 
 public class ButtonInfo
 {
@@ -155,4 +159,5 @@ public class ButtonInfo
     public bool IsNew { get; set; }
     public bool IsUpdate { get; set; }
     public bool IsExclusive { get; set; }
+
 }

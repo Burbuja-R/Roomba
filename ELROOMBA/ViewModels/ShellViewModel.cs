@@ -1,13 +1,10 @@
-﻿using System.CodeDom;
-using System.Management;
-using System.Numerics;
+﻿using System.Management;
 using CommunityToolkit.Mvvm.ComponentModel;
 using ELROOMBA.Contracts.Services;
 using ELROOMBA.Views;
 using Microsoft.UI.Xaml.Navigation;
 using Microsoft.VisualBasic;
 using Microsoft.Win32;
-using Newtonsoft.Json.Linq;
 
 namespace ELROOMBA.ViewModels;
 
@@ -19,8 +16,13 @@ public class ShellViewModel : ObservableRecipient
     private object? _selected;
     private string? _NotificationTitle;
     private string? _NotificationMessage;
+    private string? _NotificationsIconSource;
+    private bool _IsBusy = false;
 
-
+    public bool IsBusy
+    {
+        get => _IsBusy; set => SetProperty(ref _IsBusy, value);
+    }
     public bool IsBackEnabled
     {
         get => _isBackEnabled; set => SetProperty(ref _isBackEnabled, value);
@@ -37,13 +39,13 @@ public class ShellViewModel : ObservableRecipient
     {
         get => _NotificationMessage; set => SetProperty(ref _NotificationMessage, value);
     }
+    public string? NotificationsIconSource
+    {
+        get => _NotificationsIconSource; set => SetProperty(ref _NotificationsIconSource, value);
+    }
     public bool IsNotificationOpen { get; set; } = false;
     public bool CanCloseNotification { get; set; } = false;
     public bool NotificationIconsVisible { get; set; } = false;
-
-
-
-
 
     #endregion
 
@@ -85,14 +87,13 @@ public class ShellViewModel : ObservableRecipient
 
     public async Task RestorePoint()
     {
-
         /*Se asegura de crear un punto de restauración, En caso de existir se asegura que sea reciente,
          en caso de no existir, Se creará uno de manera automatica*/
         await Task.Run(() =>
         {
             var LocalMachine = Registry.LocalMachine;
             var SystemRestore = LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRestore");
-            string? RestorePointValue = SystemRestore.GetValue("RPSessionInterval").ToString();
+            var RestorePointValue = SystemRestore.GetValue("RPSessionInterval").ToString();
             if (RestorePointValue != null)
             {
                 if (RestorePointValue.Contains('1'))
@@ -103,50 +104,65 @@ public class ShellViewModel : ObservableRecipient
                         IsNotificationOpen = true;
                         NotificationIconsVisible = true;
                         CanCloseNotification = true;
-                        NotificationTitle = $"ELRoomba";
-                        NotificationMessage = $"Hemos detectado un punto de restauracion ya hecho previamente, Puede cerrar esta pestaña";
+                        _NotificationsIconSource = $"ms-appx:///Assets/Exclamacion.png";
+                        _NotificationTitle = $"ELRoomba";
+                        _NotificationMessage = $"Hemos detectado un punto de restauracion ya hecho previamente, Puede cerrar esta pestaña";
 
                     }
                 }
-                else
+                if (RestorePointValue.Contains('0'))
                 {
-                    var osDrive = Path.GetPathRoot(Environment.SystemDirectory);
-                    var scope = new ManagementScope("\\\\localhost\\root\\default");
-                    var path = new ManagementPath("SystemRestore");
-                    var options = new ObjectGetOptions();
-                    var process = new ManagementClass(scope, path, options);
-                    var inParams = process.GetMethodParameters("Enable");
-                    inParams["WaitTillEnabled"] = true;
-                    inParams["Drive"] = osDrive;
-                    var outParams = process.InvokeMethod("Enable", inParams, null);
-                    dynamic? restPoint = Interaction.GetObject("winmgmts:\\\\.\\root\\default:Systemrestore");
-                    if (restPoint != null)
+                    try
                     {
-                        if (restPoint.CreateRestorePoint("ELRoomba", 0, 100) == 0)
-                        {
+                            ManagementScope oScope = new ManagementScope("\\\\localhost\\root\\default");
+                            ManagementPath oPath = new ManagementPath("SystemRestore");
+                            ObjectGetOptions oGetOp = new ObjectGetOptions();
+                            ManagementClass oProcess = new ManagementClass(oScope, oPath, oGetOp);
+
+                            ManagementBaseObject oInParams =
+                                 oProcess.GetMethodParameters("CreateRestorePoint");
+                            oInParams["Description"] = "si";
+                            oInParams["RestorePointType"] = 12;
+                            oInParams["EventType"] = 100;
+                             
+                            ManagementBaseObject oOutParams = oProcess.InvokeMethod("CreateRestorePoint", oInParams, null);
+
                             IsNotificationOpen = true;
                             NotificationIconsVisible = true;
                             CanCloseNotification = true;
-                            NotificationTitle = $"ELRoomba";
-                            NotificationMessage = $"Se ha creado un Punto de restauración a la Hora {DateTime.Now.ToString("HH:mm")} ";
-                        }
+                            _NotificationsIconSource = $"ms-appx:///Assets/Exclamacion.png";
+                            _NotificationTitle = $"ELRoomba";
+                            _NotificationMessage = $"Funciona";
+
                     }
+                    catch (Exception ex)
+                    {
+                        IsNotificationOpen = true;
+                        NotificationIconsVisible = true;
+                        CanCloseNotification = true;
+                        _NotificationsIconSource = $"ms-appx:///Assets/Exclamacion.png";
+                        _NotificationTitle = $"ELRoomba";
+                        _NotificationMessage = $"no Funciona" + ex.Message;
+                    }
+                   
+
                 }
             }
             else
             {
+                IsNotificationOpen = true;
+                NotificationIconsVisible = true;
+                CanCloseNotification = false;
+                _NotificationTitle = $"ELRoomba";
+                _NotificationsIconSource = $"ms-appx:///Assets/Error.png";
+                _NotificationMessage = $"Ha ocurrido un error al crear el punto de restauración, porfavor haga uno manualmente ";
             }
-
+            return Task.CompletedTask;
         });
-        await Task.CompletedTask;
     }
-
 
     public async void SetDataAsync()
     {
-        for (var i = 0; i < 5; i++)
-        {
-            await RestorePoint();
-        }
+        await RestorePoint();
     }
 }

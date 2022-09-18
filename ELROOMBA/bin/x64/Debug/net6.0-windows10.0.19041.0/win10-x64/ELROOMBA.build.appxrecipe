@@ -1279,7 +1279,7 @@
     <AppxPackagedFile Include="C:\Users\Administrator\.nuget\packages\winuiex\1.8.0\lib\net5.0-windows10.0.18362\WinUIEx.dll">
       <PackagePath>WinUIEx.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA.Core\bin\Debug\net6.0\ELROOMBA.Core.dll">
+    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA.Core\bin\x64\Debug\net6.0\ELROOMBA.Core.dll">
       <PackagePath>ELROOMBA.Core.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Xaml.Controls.pri">
@@ -1312,11 +1312,8 @@
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\Exclamacion.png">
       <PackagePath>Assets\Exclamacion.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\Exclamation.png">
-      <PackagePath>Assets\Exclamation.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\Exclusivo.png">
-      <PackagePath>Assets\Exclusivo.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\Exclusive.png">
+      <PackagePath>Assets\Exclusive.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\FSO.png">
       <PackagePath>Assets\FSO.png</PackagePath>
@@ -1326,6 +1323,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\Logs.png">
+      <PackagePath>Assets\Logs.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\MCSS.png">
       <PackagePath>Assets\MCSS.png</PackagePath>
@@ -1359,6 +1359,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\Success.png">
+      <PackagePath>Assets\Success.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\System.png">
       <PackagePath>Assets\System.png</PackagePath>

@@ -47,7 +47,7 @@
                 </Grid.ColumnDefinitions>
 
                 <Grid Width="72" CornerRadius="{ThemeResource ControlCornerRadius}">
-                    <Image x:ConnectionId='11'
+                    <Image x:ConnectionId='13'
                         x:Name="gridImage"
                         Width="48"
                         VerticalAlignment="Center"
@@ -61,13 +61,13 @@
                               Grid.ColumnSpan="2"
                               Margin="16,6,0,0">
                    
-                    <TextBlock x:ConnectionId='9'
+                    <TextBlock x:ConnectionId='11'
                         x:Name="titleText"
                         Style="{StaticResource BodyStrongTextBlockStyle}"
                                              
                         TextLineBounds="TrimToCapHeight"
                         TextWrapping="NoWrap" />
-                    <TextBlock x:ConnectionId='10'
+                    <TextBlock x:ConnectionId='12'
                         Style="{StaticResource CaptionTextBlockStyle}"
                         Foreground="{ThemeResource TextFillColorSecondaryBrush}"
                         Margin="0,2,8,0"
@@ -76,15 +76,18 @@
                         TextTrimming="CharacterEllipsis" />
                 </RelativePanel>
 
-                <Grid x:ConnectionId='8'
-                    Margin="0"
+                <StackPanel
                     Grid.Column="2"
                     VerticalAlignment="Top"
-                    CornerRadius="{StaticResource ControlCornerRadius}"
-                                                >
+                    Orientation="Horizontal"
+                    Margin="14 0 0 14"
+                    CornerRadius="{StaticResource ControlCornerRadius}">
 
-                    <Ellipse Fill="{ThemeResource SystemAccentColorDark1}" Width="12" Height="12"/>
-                </Grid>
+                    <Ellipse x:ConnectionId='8' Fill="{StaticResource ColorAzul}"                             Width="12" Height="12" ToolTipService.ToolTip="Nuevo"/>
+                    <Ellipse x:ConnectionId='9' Fill="{StaticResource ColorVioleta}"                                   Width="12" Height="12" ToolTipService.ToolTip="Exclusivo, Disponible temporalmente"/>
+                    <Ellipse x:ConnectionId='10' Fill="{StaticResource ColorVerde}"                                Width="12" Height="12" ToolTipService.ToolTip="Este control se ha actualizado, echale un vistazo a los nuevos ajustes"/>
+                    
+                </StackPanel>
             </Grid>
         </UserControl>
     </DataTemplate>

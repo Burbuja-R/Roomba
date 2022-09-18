@@ -29,21 +29,21 @@
     <AppXManifest Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-09-16T00:59:32.976</Modified>
+      <Modified>2022-09-18T00:52:07.362</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-09-16T00:59:32.546</Modified>
+      <Modified>2022-09-18T00:52:06.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\ELROOMBA.runtimeconfig.json">
       <PackagePath>ELROOMBA.runtimeconfig.json</PackagePath>
-      <Modified>2022-09-16T00:02:45.115</Modified>
+      <Modified>2022-09-18T00:49:24.447</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\ELROOMBA.dll">
       <PackagePath>ELROOMBA.dll</PackagePath>
-      <Modified>2022-09-16T00:59:32.103</Modified>
+      <Modified>2022-09-18T00:52:05.877</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\appsettings.json">
       <PackagePath>appsettings.json</PackagePath>
@@ -51,7 +51,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ELROOMBA.exe</PackagePath>
-      <Modified>2022-09-16T00:59:32.112</Modified>
+      <Modified>2022-09-18T00:52:05.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\MsixContent\CoreMessagingXP.dll">
       <PackagePath>CoreMessagingXP.dll</PackagePath>
@@ -627,7 +627,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\bin\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\ELROOMBA.deps.json">
       <PackagePath>ELROOMBA.deps.json</PackagePath>
-      <Modified>2022-09-16T00:15:28.589</Modified>
+      <Modified>2022-09-18T00:49:24.440</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.9\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1705,9 +1705,9 @@
       <PackagePath>WinUIEx.dll</PackagePath>
       <Modified>2022-07-11T01:04:36.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA.Core\bin\Debug\net6.0\ELROOMBA.Core.dll">
+    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA.Core\bin\x64\Debug\net6.0\ELROOMBA.Core.dll">
       <PackagePath>ELROOMBA.Core.dll</PackagePath>
-      <Modified>2022-09-14T00:37:54.464</Modified>
+      <Modified>2022-09-18T00:21:51.530</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\obj\x64\Debug\net6.0-windows10.0.19041.0\win10-x64\MsixContent\Microsoft.UI.Xaml.Controls.pri">
       <PackagePath>Microsoft.UI.Xaml.Controls.pri</PackagePath>
@@ -1749,13 +1749,9 @@
       <PackagePath>Assets\Exclamacion.png</PackagePath>
       <Modified>2022-09-11T01:49:40.681</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\Exclamation.png">
-      <PackagePath>Assets\Exclamation.png</PackagePath>
-      <Modified>2022-09-11T19:54:59.099</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\Exclusivo.png">
-      <PackagePath>Assets\Exclusivo.png</PackagePath>
-      <Modified>2022-09-11T01:49:40.681</Modified>
+    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\Exclusive.png">
+      <PackagePath>Assets\Exclusive.png</PackagePath>
+      <Modified>2022-09-17T22:37:42.870</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\FSO.png">
       <PackagePath>Assets\FSO.png</PackagePath>
@@ -1768,6 +1764,10 @@
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2022-09-11T01:49:40.682</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\Logs.png">
+      <PackagePath>Assets\Logs.png</PackagePath>
+      <Modified>2022-09-17T22:37:56.317</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\MCSS.png">
       <PackagePath>Assets\MCSS.png</PackagePath>
@@ -1812,6 +1812,10 @@
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <Modified>2022-09-11T01:49:40.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\Success.png">
+      <PackagePath>Assets\Success.png</PackagePath>
+      <Modified>2022-09-17T22:30:23.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Administrator\Source\Repos\Burbuja-R\Roomba\ELROOMBA\Assets\System.png">
       <PackagePath>Assets\System.png</PackagePath>

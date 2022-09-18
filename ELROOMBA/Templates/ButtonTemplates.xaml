@@ -76,15 +76,18 @@
                         TextTrimming="CharacterEllipsis" />
                 </RelativePanel>
 
-                <Grid
-                    Margin="0"
+                <StackPanel
                     Grid.Column="2"
                     VerticalAlignment="Top"
-                    CornerRadius="{StaticResource ControlCornerRadius}"
-                    Visibility="{x:Bind IsNew}" >
+                    Orientation="Horizontal"
+                    Margin="14 0 0 14"
+                    CornerRadius="{StaticResource ControlCornerRadius}">
 
-                    <Ellipse Fill="{ThemeResource SystemAccentColorDark1}" Width="12" Height="12"/>
-                </Grid>
+                    <Ellipse Fill="{StaticResource ColorAzul}" Visibility="{x:Bind IsNew}" Width="12" Height="12" ToolTipService.ToolTip="Nuevo"/>
+                    <Ellipse Fill="{StaticResource ColorVioleta}" Visibility="{x:Bind IsExclusive}" Width="12" Height="12" ToolTipService.ToolTip="Exclusivo, Disponible temporalmente"/>
+                    <Ellipse Fill="{StaticResource ColorVerde}" Visibility="{x:Bind IsUpdate}" Width="12" Height="12" ToolTipService.ToolTip="Este control se ha actualizado, echale un vistazo a los nuevos ajustes"/>
+                    
+                </StackPanel>
             </Grid>
         </UserControl>
     </DataTemplate>

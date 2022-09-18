@@ -224,7 +224,7 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[66];
+            _typeNameTable = new string[69];
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
@@ -267,9 +267,9 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
             _typeNameTable[39] = "Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible";
             _typeNameTable[40] = "Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode";
             _typeNameTable[41] = "System.Collections.Generic.IList`1<Object>";
-            _typeNameTable[42] = "Microsoft.UI.Xaml.DataTemplate";
-            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
-            _typeNameTable[44] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
+            _typeNameTable[42] = "Microsoft.UI.Xaml.Controls.AutoSuggestBox";
+            _typeNameTable[43] = "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode";
+            _typeNameTable[44] = "Microsoft.UI.Xaml.DataTemplate";
             _typeNameTable[45] = "Microsoft.UI.Xaml.Style";
             _typeNameTable[46] = "Microsoft.UI.Xaml.Controls.StyleSelector";
             _typeNameTable[47] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
@@ -284,15 +284,18 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
             _typeNameTable[56] = "Microsoft.UI.Xaml.Controls.ImageIcon";
             _typeNameTable[57] = "Microsoft.UI.Xaml.Media.ImageSource";
             _typeNameTable[58] = "Microsoft.UI.Xaml.Controls.InfoBar";
-            _typeNameTable[59] = "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase";
-            _typeNameTable[60] = "System.Windows.Input.ICommand";
-            _typeNameTable[61] = "Microsoft.UI.Xaml.Controls.IconSource";
-            _typeNameTable[62] = "Microsoft.UI.Xaml.Controls.InfoBarSeverity";
+            _typeNameTable[59] = "Microsoft.UI.Xaml.Controls.InfoBarSeverity";
+            _typeNameTable[60] = "Microsoft.UI.Xaml.Controls.IconSource";
+            _typeNameTable[61] = "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase";
+            _typeNameTable[62] = "System.Windows.Input.ICommand";
             _typeNameTable[63] = "Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings";
-            _typeNameTable[64] = "ELROOMBA.Views.ShellPage";
-            _typeNameTable[65] = "ELROOMBA.ViewModels.ShellViewModel";
+            _typeNameTable[64] = "Microsoft.UI.Xaml.Controls.ProgressBar";
+            _typeNameTable[65] = "Microsoft.UI.Xaml.Controls.Primitives.RangeBase";
+            _typeNameTable[66] = "Microsoft.UI.Xaml.Controls.ProgressBarTemplateSettings";
+            _typeNameTable[67] = "ELROOMBA.Views.ShellPage";
+            _typeNameTable[68] = "ELROOMBA.ViewModels.ShellViewModel";
 
-            _typeTable = new global::System.Type[66];
+            _typeTable = new global::System.Type[69];
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
@@ -335,9 +338,9 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
             _typeTable[39] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible);
             _typeTable[40] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode);
             _typeTable[41] = typeof(global::System.Collections.Generic.IList<global::System.Object>);
-            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
-            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
-            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
+            _typeTable[42] = typeof(global::Microsoft.UI.Xaml.Controls.AutoSuggestBox);
+            _typeTable[43] = typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode);
+            _typeTable[44] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
             _typeTable[45] = typeof(global::Microsoft.UI.Xaml.Style);
             _typeTable[46] = typeof(global::Microsoft.UI.Xaml.Controls.StyleSelector);
             _typeTable[47] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
@@ -352,13 +355,16 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
             _typeTable[56] = typeof(global::Microsoft.UI.Xaml.Controls.ImageIcon);
             _typeTable[57] = typeof(global::Microsoft.UI.Xaml.Media.ImageSource);
             _typeTable[58] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBar);
-            _typeTable[59] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase);
-            _typeTable[60] = typeof(global::System.Windows.Input.ICommand);
-            _typeTable[61] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
-            _typeTable[62] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarSeverity);
+            _typeTable[59] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarSeverity);
+            _typeTable[60] = typeof(global::Microsoft.UI.Xaml.Controls.IconSource);
+            _typeTable[61] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase);
+            _typeTable[62] = typeof(global::System.Windows.Input.ICommand);
             _typeTable[63] = typeof(global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings);
-            _typeTable[64] = typeof(global::ELROOMBA.Views.ShellPage);
-            _typeTable[65] = typeof(global::ELROOMBA.ViewModels.ShellViewModel);
+            _typeTable[64] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressBar);
+            _typeTable[65] = typeof(global::Microsoft.UI.Xaml.Controls.Primitives.RangeBase);
+            _typeTable[66] = typeof(global::Microsoft.UI.Xaml.Controls.ProgressBarTemplateSettings);
+            _typeTable[67] = typeof(global::ELROOMBA.Views.ShellPage);
+            _typeTable[68] = typeof(global::ELROOMBA.ViewModels.ShellViewModel);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -412,6 +418,7 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
         private object Activate_56_ImageIcon() { return new global::Microsoft.UI.Xaml.Controls.ImageIcon(); }
         private object Activate_58_InfoBar() { return new global::Microsoft.UI.Xaml.Controls.InfoBar(); }
         private object Activate_63_InfoBarTemplateSettings() { return new global::Microsoft.UI.Xaml.Controls.InfoBarTemplateSettings(); }
+        private object Activate_64_ProgressBar() { return new global::Microsoft.UI.Xaml.Controls.ProgressBar(); }
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -710,7 +717,6 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
                 userType.AddMemberName("CompactModeThresholdWidth");
                 userType.AddMemberName("PaneDisplayMode");
                 userType.AddMemberName("MenuItems");
-                userType.AddMemberName("HeaderTemplate");
                 userType.AddMemberName("FooterMenuItems");
                 userType.AddMemberName("AlwaysShowHeader");
                 userType.AddMemberName("AutoSuggestBox");
@@ -719,6 +725,7 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
                 userType.AddMemberName("DisplayMode");
                 userType.AddMemberName("FooterMenuItemsSource");
                 userType.AddMemberName("Header");
+                userType.AddMemberName("HeaderTemplate");
                 userType.AddMemberName("IsPaneOpen");
                 userType.AddMemberName("IsPaneToggleButtonVisible");
                 userType.AddMemberName("IsPaneVisible");
@@ -771,20 +778,20 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 42:   //  Microsoft.UI.Xaml.DataTemplate
+            case 42:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
                 xamlType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 43:   //  Microsoft.UI.Xaml.Controls.AutoSuggestBox
-                xamlType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 44:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
+            case 43:   //  Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
                 userType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Minimal", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Minimal);
                 userType.AddEnumValue("Compact", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Compact);
                 userType.AddEnumValue("Expanded", global::Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode.Expanded);
                 xamlType = userType;
+                break;
+
+            case 44:   //  Microsoft.UI.Xaml.DataTemplate
+                xamlType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 45:   //  Microsoft.UI.Xaml.Style
@@ -880,37 +887,37 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
                 userType.AddMemberName("Title");
                 userType.AddMemberName("Message");
                 userType.AddMemberName("IsIconVisible");
+                userType.AddMemberName("Severity");
+                userType.AddMemberName("IconSource");
                 userType.AddMemberName("ActionButton");
                 userType.AddMemberName("CloseButtonCommand");
                 userType.AddMemberName("CloseButtonCommandParameter");
                 userType.AddMemberName("CloseButtonStyle");
                 userType.AddMemberName("ContentTemplate");
-                userType.AddMemberName("IconSource");
-                userType.AddMemberName("Severity");
                 userType.AddMemberName("TemplateSettings");
                 xamlType = userType;
                 break;
 
-            case 59:   //  Microsoft.UI.Xaml.Controls.Primitives.ButtonBase
-                xamlType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 60:   //  System.Windows.Input.ICommand
-                userType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 61:   //  Microsoft.UI.Xaml.Controls.IconSource
-                xamlType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 62:   //  Microsoft.UI.Xaml.Controls.InfoBarSeverity
+            case 59:   //  Microsoft.UI.Xaml.Controls.InfoBarSeverity
                 userType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Enum"));
                 userType.AddEnumValue("Informational", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Informational);
                 userType.AddEnumValue("Success", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Success);
                 userType.AddEnumValue("Warning", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Warning);
                 userType.AddEnumValue("Error", global::Microsoft.UI.Xaml.Controls.InfoBarSeverity.Error);
+                xamlType = userType;
+                break;
+
+            case 60:   //  Microsoft.UI.Xaml.Controls.IconSource
+                xamlType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 61:   //  Microsoft.UI.Xaml.Controls.Primitives.ButtonBase
+                xamlType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 62:   //  System.Windows.Input.ICommand
+                userType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
@@ -920,14 +927,34 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 64:   //  ELROOMBA.Views.ShellPage
+            case 64:   //  Microsoft.UI.Xaml.Controls.ProgressBar
+                userType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Primitives.RangeBase"));
+                userType.Activator = Activate_64_ProgressBar;
+                userType.AddMemberName("IsIndeterminate");
+                userType.AddMemberName("ShowError");
+                userType.AddMemberName("ShowPaused");
+                userType.AddMemberName("TemplateSettings");
+                xamlType = userType;
+                break;
+
+            case 65:   //  Microsoft.UI.Xaml.Controls.Primitives.RangeBase
+                xamlType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 66:   //  Microsoft.UI.Xaml.Controls.ProgressBarTemplateSettings
+                userType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 67:   //  ELROOMBA.Views.ShellPage
                 userType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
                 userType.AddMemberName("ViewModel");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 65:   //  ELROOMBA.ViewModels.ShellViewModel
+            case 68:   //  ELROOMBA.ViewModels.ShellViewModel
                 userType = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("CommunityToolkit.Mvvm.ComponentModel.ObservableRecipient"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
@@ -1496,85 +1523,85 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.MenuItems;
         }
-        private object get_54_NavigationView_HeaderTemplate(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            return that.HeaderTemplate;
-        }
-        private void set_54_NavigationView_HeaderTemplate(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
-            that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
-        }
-        private object get_55_NavigationView_FooterMenuItems(object instance)
+        private object get_54_NavigationView_FooterMenuItems(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.FooterMenuItems;
         }
-        private object get_56_NavigationView_AlwaysShowHeader(object instance)
+        private object get_55_NavigationView_AlwaysShowHeader(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.AlwaysShowHeader;
         }
-        private void set_56_NavigationView_AlwaysShowHeader(object instance, object Value)
+        private void set_55_NavigationView_AlwaysShowHeader(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.AlwaysShowHeader = (global::System.Boolean)Value;
         }
-        private object get_57_NavigationView_AutoSuggestBox(object instance)
+        private object get_56_NavigationView_AutoSuggestBox(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.AutoSuggestBox;
         }
-        private void set_57_NavigationView_AutoSuggestBox(object instance, object Value)
+        private void set_56_NavigationView_AutoSuggestBox(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.AutoSuggestBox = (global::Microsoft.UI.Xaml.Controls.AutoSuggestBox)Value;
         }
-        private object get_58_NavigationView_CompactPaneLength(object instance)
+        private object get_57_NavigationView_CompactPaneLength(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.CompactPaneLength;
         }
-        private void set_58_NavigationView_CompactPaneLength(object instance, object Value)
+        private void set_57_NavigationView_CompactPaneLength(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.CompactPaneLength = (global::System.Double)Value;
         }
-        private object get_59_NavigationView_ContentOverlay(object instance)
+        private object get_58_NavigationView_ContentOverlay(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.ContentOverlay;
         }
-        private void set_59_NavigationView_ContentOverlay(object instance, object Value)
+        private void set_58_NavigationView_ContentOverlay(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.ContentOverlay = (global::Microsoft.UI.Xaml.UIElement)Value;
         }
-        private object get_60_NavigationView_DisplayMode(object instance)
+        private object get_59_NavigationView_DisplayMode(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.DisplayMode;
         }
-        private object get_61_NavigationView_FooterMenuItemsSource(object instance)
+        private object get_60_NavigationView_FooterMenuItemsSource(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.FooterMenuItemsSource;
         }
-        private void set_61_NavigationView_FooterMenuItemsSource(object instance, object Value)
+        private void set_60_NavigationView_FooterMenuItemsSource(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.FooterMenuItemsSource = (global::System.Object)Value;
         }
-        private object get_62_NavigationView_Header(object instance)
+        private object get_61_NavigationView_Header(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             return that.Header;
         }
-        private void set_62_NavigationView_Header(object instance, object Value)
+        private void set_61_NavigationView_Header(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
             that.Header = (global::System.Object)Value;
+        }
+        private object get_62_NavigationView_HeaderTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
+            return that.HeaderTemplate;
+        }
+        private void set_62_NavigationView_HeaderTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.NavigationView)instance;
+            that.HeaderTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
         private object get_63_NavigationView_IsPaneOpen(object instance)
         {
@@ -1924,82 +1951,117 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.IsIconVisible = (global::System.Boolean)Value;
         }
-        private object get_100_InfoBar_ActionButton(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.ActionButton;
-        }
-        private void set_100_InfoBar_ActionButton(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.ActionButton = (global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase)Value;
-        }
-        private object get_101_InfoBar_CloseButtonCommand(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.CloseButtonCommand;
-        }
-        private void set_101_InfoBar_CloseButtonCommand(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.CloseButtonCommand = (global::System.Windows.Input.ICommand)Value;
-        }
-        private object get_102_InfoBar_CloseButtonCommandParameter(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.CloseButtonCommandParameter;
-        }
-        private void set_102_InfoBar_CloseButtonCommandParameter(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.CloseButtonCommandParameter = (global::System.Object)Value;
-        }
-        private object get_103_InfoBar_CloseButtonStyle(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.CloseButtonStyle;
-        }
-        private void set_103_InfoBar_CloseButtonStyle(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.CloseButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
-        }
-        private object get_104_InfoBar_ContentTemplate(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.ContentTemplate;
-        }
-        private void set_104_InfoBar_ContentTemplate(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.ContentTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
-        }
-        private object get_105_InfoBar_IconSource(object instance)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            return that.IconSource;
-        }
-        private void set_105_InfoBar_IconSource(object instance, object Value)
-        {
-            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
-            that.IconSource = (global::Microsoft.UI.Xaml.Controls.IconSource)Value;
-        }
-        private object get_106_InfoBar_Severity(object instance)
+        private object get_100_InfoBar_Severity(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.Severity;
         }
-        private void set_106_InfoBar_Severity(object instance, object Value)
+        private void set_100_InfoBar_Severity(object instance, object Value)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             that.Severity = (global::Microsoft.UI.Xaml.Controls.InfoBarSeverity)Value;
+        }
+        private object get_101_InfoBar_IconSource(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.IconSource;
+        }
+        private void set_101_InfoBar_IconSource(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.IconSource = (global::Microsoft.UI.Xaml.Controls.IconSource)Value;
+        }
+        private object get_102_InfoBar_ActionButton(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.ActionButton;
+        }
+        private void set_102_InfoBar_ActionButton(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.ActionButton = (global::Microsoft.UI.Xaml.Controls.Primitives.ButtonBase)Value;
+        }
+        private object get_103_InfoBar_CloseButtonCommand(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.CloseButtonCommand;
+        }
+        private void set_103_InfoBar_CloseButtonCommand(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.CloseButtonCommand = (global::System.Windows.Input.ICommand)Value;
+        }
+        private object get_104_InfoBar_CloseButtonCommandParameter(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.CloseButtonCommandParameter;
+        }
+        private void set_104_InfoBar_CloseButtonCommandParameter(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.CloseButtonCommandParameter = (global::System.Object)Value;
+        }
+        private object get_105_InfoBar_CloseButtonStyle(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.CloseButtonStyle;
+        }
+        private void set_105_InfoBar_CloseButtonStyle(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.CloseButtonStyle = (global::Microsoft.UI.Xaml.Style)Value;
+        }
+        private object get_106_InfoBar_ContentTemplate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            return that.ContentTemplate;
+        }
+        private void set_106_InfoBar_ContentTemplate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
+            that.ContentTemplate = (global::Microsoft.UI.Xaml.DataTemplate)Value;
         }
         private object get_107_InfoBar_TemplateSettings(object instance)
         {
             var that = (global::Microsoft.UI.Xaml.Controls.InfoBar)instance;
             return that.TemplateSettings;
         }
-        private object get_108_ShellPage_ViewModel(object instance)
+        private object get_108_ProgressBar_IsIndeterminate(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            return that.IsIndeterminate;
+        }
+        private void set_108_ProgressBar_IsIndeterminate(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            that.IsIndeterminate = (global::System.Boolean)Value;
+        }
+        private object get_109_ProgressBar_ShowError(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            return that.ShowError;
+        }
+        private void set_109_ProgressBar_ShowError(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            that.ShowError = (global::System.Boolean)Value;
+        }
+        private object get_110_ProgressBar_ShowPaused(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            return that.ShowPaused;
+        }
+        private void set_110_ProgressBar_ShowPaused(object instance, object Value)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            that.ShowPaused = (global::System.Boolean)Value;
+        }
+        private object get_111_ProgressBar_TemplateSettings(object instance)
+        {
+            var that = (global::Microsoft.UI.Xaml.Controls.ProgressBar)instance;
+            return that.TemplateSettings;
+        }
+        private object get_112_ShellPage_ViewModel(object instance)
         {
             var that = (global::ELROOMBA.Views.ShellPage)instance;
             return that.ViewModel;
@@ -2350,68 +2412,68 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
                 xamlMember.Getter = get_53_NavigationView_MenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "Microsoft.UI.Xaml.Controls.NavigationView.HeaderTemplate":
-                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
-                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_54_NavigationView_HeaderTemplate;
-                xamlMember.Setter = set_54_NavigationView_HeaderTemplate;
-                break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItems":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "FooterMenuItems", "System.Collections.Generic.IList`1<Object>");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_55_NavigationView_FooterMenuItems;
+                xamlMember.Getter = get_54_NavigationView_FooterMenuItems;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AlwaysShowHeader":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "AlwaysShowHeader", "Boolean");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_56_NavigationView_AlwaysShowHeader;
-                xamlMember.Setter = set_56_NavigationView_AlwaysShowHeader;
+                xamlMember.Getter = get_55_NavigationView_AlwaysShowHeader;
+                xamlMember.Setter = set_55_NavigationView_AlwaysShowHeader;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.AutoSuggestBox":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "AutoSuggestBox", "Microsoft.UI.Xaml.Controls.AutoSuggestBox");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_57_NavigationView_AutoSuggestBox;
-                xamlMember.Setter = set_57_NavigationView_AutoSuggestBox;
+                xamlMember.Getter = get_56_NavigationView_AutoSuggestBox;
+                xamlMember.Setter = set_56_NavigationView_AutoSuggestBox;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.CompactPaneLength":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "CompactPaneLength", "Double");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_58_NavigationView_CompactPaneLength;
-                xamlMember.Setter = set_58_NavigationView_CompactPaneLength;
+                xamlMember.Getter = get_57_NavigationView_CompactPaneLength;
+                xamlMember.Setter = set_57_NavigationView_CompactPaneLength;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.ContentOverlay":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "ContentOverlay", "Microsoft.UI.Xaml.UIElement");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_59_NavigationView_ContentOverlay;
-                xamlMember.Setter = set_59_NavigationView_ContentOverlay;
+                xamlMember.Getter = get_58_NavigationView_ContentOverlay;
+                xamlMember.Setter = set_58_NavigationView_ContentOverlay;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.DisplayMode":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "DisplayMode", "Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_60_NavigationView_DisplayMode;
+                xamlMember.Getter = get_59_NavigationView_DisplayMode;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItemsSource":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "FooterMenuItemsSource", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_61_NavigationView_FooterMenuItemsSource;
-                xamlMember.Setter = set_61_NavigationView_FooterMenuItemsSource;
+                xamlMember.Getter = get_60_NavigationView_FooterMenuItemsSource;
+                xamlMember.Setter = set_60_NavigationView_FooterMenuItemsSource;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.Header":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
                 xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "Header", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_62_NavigationView_Header;
-                xamlMember.Setter = set_62_NavigationView_Header;
+                xamlMember.Getter = get_61_NavigationView_Header;
+                xamlMember.Setter = set_61_NavigationView_Header;
+                break;
+            case "Microsoft.UI.Xaml.Controls.NavigationView.HeaderTemplate":
+                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
+                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "HeaderTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_62_NavigationView_HeaderTemplate;
+                xamlMember.Setter = set_62_NavigationView_HeaderTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.NavigationView.IsPaneOpen":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.NavigationView");
@@ -2673,54 +2735,54 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
                 xamlMember.Getter = get_99_InfoBar_IsIconVisible;
                 xamlMember.Setter = set_99_InfoBar_IsIconVisible;
                 break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.ActionButton":
+            case "Microsoft.UI.Xaml.Controls.InfoBar.Severity":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "ActionButton", "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase");
+                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "Severity", "Microsoft.UI.Xaml.Controls.InfoBarSeverity");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_100_InfoBar_ActionButton;
-                xamlMember.Setter = set_100_InfoBar_ActionButton;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonCommand":
-                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "CloseButtonCommand", "System.Windows.Input.ICommand");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_101_InfoBar_CloseButtonCommand;
-                xamlMember.Setter = set_101_InfoBar_CloseButtonCommand;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonCommandParameter":
-                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "CloseButtonCommandParameter", "Object");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_102_InfoBar_CloseButtonCommandParameter;
-                xamlMember.Setter = set_102_InfoBar_CloseButtonCommandParameter;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonStyle":
-                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "CloseButtonStyle", "Microsoft.UI.Xaml.Style");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_103_InfoBar_CloseButtonStyle;
-                xamlMember.Setter = set_103_InfoBar_CloseButtonStyle;
-                break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.ContentTemplate":
-                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "ContentTemplate", "Microsoft.UI.Xaml.DataTemplate");
-                xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_104_InfoBar_ContentTemplate;
-                xamlMember.Setter = set_104_InfoBar_ContentTemplate;
+                xamlMember.Getter = get_100_InfoBar_Severity;
+                xamlMember.Setter = set_100_InfoBar_Severity;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.IconSource":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
                 xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "IconSource", "Microsoft.UI.Xaml.Controls.IconSource");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_105_InfoBar_IconSource;
-                xamlMember.Setter = set_105_InfoBar_IconSource;
+                xamlMember.Getter = get_101_InfoBar_IconSource;
+                xamlMember.Setter = set_101_InfoBar_IconSource;
                 break;
-            case "Microsoft.UI.Xaml.Controls.InfoBar.Severity":
+            case "Microsoft.UI.Xaml.Controls.InfoBar.ActionButton":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
-                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "Severity", "Microsoft.UI.Xaml.Controls.InfoBarSeverity");
+                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "ActionButton", "Microsoft.UI.Xaml.Controls.Primitives.ButtonBase");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_106_InfoBar_Severity;
-                xamlMember.Setter = set_106_InfoBar_Severity;
+                xamlMember.Getter = get_102_InfoBar_ActionButton;
+                xamlMember.Setter = set_102_InfoBar_ActionButton;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonCommand":
+                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "CloseButtonCommand", "System.Windows.Input.ICommand");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_103_InfoBar_CloseButtonCommand;
+                xamlMember.Setter = set_103_InfoBar_CloseButtonCommand;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonCommandParameter":
+                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "CloseButtonCommandParameter", "Object");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_104_InfoBar_CloseButtonCommandParameter;
+                xamlMember.Setter = set_104_InfoBar_CloseButtonCommandParameter;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.CloseButtonStyle":
+                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "CloseButtonStyle", "Microsoft.UI.Xaml.Style");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_105_InfoBar_CloseButtonStyle;
+                xamlMember.Setter = set_105_InfoBar_CloseButtonStyle;
+                break;
+            case "Microsoft.UI.Xaml.Controls.InfoBar.ContentTemplate":
+                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
+                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "ContentTemplate", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_106_InfoBar_ContentTemplate;
+                xamlMember.Setter = set_106_InfoBar_ContentTemplate;
                 break;
             case "Microsoft.UI.Xaml.Controls.InfoBar.TemplateSettings":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.InfoBar");
@@ -2729,10 +2791,37 @@ namespace ELROOMBA.ELROOMBA_XamlTypeInfo
                 xamlMember.Getter = get_107_InfoBar_TemplateSettings;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "Microsoft.UI.Xaml.Controls.ProgressBar.IsIndeterminate":
+                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressBar");
+                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "IsIndeterminate", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_108_ProgressBar_IsIndeterminate;
+                xamlMember.Setter = set_108_ProgressBar_IsIndeterminate;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ProgressBar.ShowError":
+                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressBar");
+                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "ShowError", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_109_ProgressBar_ShowError;
+                xamlMember.Setter = set_109_ProgressBar_ShowError;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ProgressBar.ShowPaused":
+                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressBar");
+                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "ShowPaused", "Boolean");
+                xamlMember.SetIsDependencyProperty();
+                xamlMember.Getter = get_110_ProgressBar_ShowPaused;
+                xamlMember.Setter = set_110_ProgressBar_ShowPaused;
+                break;
+            case "Microsoft.UI.Xaml.Controls.ProgressBar.TemplateSettings":
+                userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.ProgressBar");
+                xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "TemplateSettings", "Microsoft.UI.Xaml.Controls.ProgressBarTemplateSettings");
+                xamlMember.Getter = get_111_ProgressBar_TemplateSettings;
+                xamlMember.SetIsReadOnly();
+                break;
             case "ELROOMBA.Views.ShellPage.ViewModel":
                 userType = (global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ELROOMBA.Views.ShellPage");
                 xamlMember = new global::ELROOMBA.ELROOMBA_XamlTypeInfo.XamlMember(this, "ViewModel", "ELROOMBA.ViewModels.ShellViewModel");
-                xamlMember.Getter = get_108_ShellPage_ViewModel;
+                xamlMember.Getter = get_112_ShellPage_ViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             }

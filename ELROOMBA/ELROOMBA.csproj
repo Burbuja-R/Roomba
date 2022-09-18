@@ -14,12 +14,18 @@
 		<UseWinUI>true</UseWinUI>
 		<EnableMsixTooling>true</EnableMsixTooling>
 		<WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+		<UseWindowsForms>False</UseWindowsForms>
+		<UseWPF>False</UseWPF>
+		<AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+		<ProduceReferenceAssembly>True</ProduceReferenceAssembly>
 	</PropertyGroup>
-
+	
 	<!--Preload Assets -->
 	<ItemGroup>
+		<Content Include="Assets\Success.png" />
 		<Content Include="Assets\Error.png" />
-		<Content Include="Assets\Exclamation.png" />
+		<Content Include="Assets\Exclusive.png" />
+		<Content Include="Assets\Logs.png" />
 		<Content Include="Assets\Driver.png" />
 		<Content Include="Assets\Energia.png" />
 		<Content Include="Assets\FSO.png" />
@@ -35,8 +41,6 @@
 		<Content Include="Assets\Windows95.png" />
 		<Content Include="Assets\Ajustes.png" />
 		<Content Include="Assets\Alerta.png" />
-		<Content Include="Assets\Exclamacion.png" />
-		<Content Include="Assets\Exclusivo.png" />
 		<Content Include="Assets\Home.png" />
 	</ItemGroup>
 
@@ -61,7 +65,7 @@
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
 		<Page Update="Templates\ButtonTemplates.xaml">
-		  <Generator>MSBuild:Compile</Generator>
+			<Generator>MSBuild:Compile</Generator>
 		</Page>
 		<Page Update="Styles\Colors.xaml">
 			<Generator>MSBuild:Compile</Generator>
